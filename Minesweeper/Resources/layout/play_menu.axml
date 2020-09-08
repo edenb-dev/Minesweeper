@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+
+
+	<TextView
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:text="Choose Difficulty"
+	android:padding="45dp"
+	android:textSize="80px"> </TextView>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Easy"
+	android:padding="40px"
+	android:textSize="50px"
+	android:id="@+id/Easy_Button"> </Button>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Medium"
+	android:padding="40px"
+	android:textSize="50px"
+	android:layout_margin="10dp"
+	android:id="@+id/Medium_Button"> </Button>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Hard"
+	android:padding="40px"
+	android:textSize="50px"
+	android:id="@+id/Hard_Button"> </Button>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Custom Game"
+	android:padding="40px"
+	android:textSize="50px"
+	android:layout_margin="10dp"
+	android:id="@+id/Custom_Button"> </Button>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="left"
+	android:layout_marginLeft="30dp"
+	android:layout_marginTop="5dp"
+	android:textSize="15dp"
+	android:id="@+id/Battery_Level_TextView"> </TextView>
+
+	<TextView
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:text="Game Rules"
+	android:padding="45dp"
+	android:textSize="80px"> </TextView>
+
+	<TextView
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="left"
+	android:paddingLeft="30dp"
+	android:paddingRight="20dp"
+	android:textSize="45px"
+	android:text="*  The goal of the game is to uncover all the squares that do not contain mines.\n\n
+*  To uncover a square press the desired location.\n\n
+*  To mark a mine use long press.\n\n
+*  Pressing a mine will score you lose.\n\n
+*  To restart the game press the smiley.\n\n"
+> </TextView>
+
+</LinearLayout>

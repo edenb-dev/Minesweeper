@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+   android:id="@+id/Play_Menu"
+   android:title="Choose Different Difficulty"/>
+
+  <item
+   android:id="@+id/Top10_Menu"
+   android:title="Watch The Top 10 Players"/>
+
+  <item
+   android:id="@+id/Game_Instructions"
+   android:title="How To Play ?"/>
+
+  <item
+   android:id="@+id/Dialog"
+   android:title="To Easy For You ?"/>
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+
+
+	<TextView
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:text="Create You're Challenge"
+	android:padding="45dp"
+	android:textSize="80px"> </TextView>
+
+	<EditText
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:textSize="40px"
+	android:hint="Grid Width"
+	android:id="@+id/Grid_Width_EditText"> </EditText>
+	
+	<EditText
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:textSize="40px"
+	android:hint="Grid Height"
+	android:id="@+id/Grid_Height_EditText"
+	android:layout_margin="10dp" > </EditText>
+	
+	<EditText
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:textSize="40px"
+	android:hint="Number Of Mines"
+	android:id="@+id/Number_Of_Mines_EditText"> </EditText>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Play"
+	android:padding="40px"
+	android:textSize="90px"
+	android:layout_margin="20dp"
+	android:id="@+id/Play_Button"> </Button>
+
+</LinearLayout>

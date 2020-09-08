@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+
+	<TextView
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:padding="45dp"
+	android:textSize="80px"
+	android:id="@+id/Winner_TextView"> </TextView>
+
+	<EditText
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:textSize="50px"
+	android:hint="Enter Your Name"
+	android:id="@+id/Player_Name_EditText"> </EditText>
+	
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Save"
+	android:layout_margin="15dp"
+	android:padding="40px"
+	android:textSize="50px"
+	android:id="@+id/Save_Button"> </Button>
+
+</LinearLayout>

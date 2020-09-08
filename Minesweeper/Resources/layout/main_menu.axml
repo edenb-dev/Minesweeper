@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+
+
+	<TextView
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+	android:text="Main Menu"
+	android:padding="45dp"
+	android:textSize="80px"> </TextView>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Play"
+	android:padding="40px"
+	android:textSize="90px"
+	android:id="@+id/Play_Button"> </Button>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Top 10 Players"
+	android:padding="40px"
+	android:textSize="40px"
+	android:layout_margin="10dp"
+	android:id="@+id/Top10_Button"> </Button>
+
+	<Button
+	android:layout_width="200dp"
+    android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:text = "Instructions"
+	android:padding="40px"
+	android:textSize="40px"
+	android:id="@+id/Instructions_Button"> </Button>
+
+</LinearLayout>
