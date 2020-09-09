@@ -3,7 +3,7 @@ Android game developed in Xamarin. ( C# &amp; .Net based technology )
 
 My take on the classic Minesweeper game.
 
-![Minesweepers_Screens](https://user-images.githubusercontent.com/70844165/92663341-aa8f6180-f309-11ea-98da-f0e99291f4d6.jpg)
+![Minesweepers_Screens](https://user-images.githubusercontent.com/70844165/92663778-e4ad3300-f30a-11ea-9197-f3d762ef8ff3.jpg)
 
 ## Game
 
